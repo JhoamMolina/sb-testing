@@ -8,6 +8,7 @@ const meta = {
   argTypes: {
     size: { control: "select" },
     color: { control: "select" },
+    allCaps: { control: "boolean" },
   },
 } satisfies Meta<typeof MyLabel>;
 
